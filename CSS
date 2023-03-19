@@ -1,0 +1,64 @@
+body {
+   background-image: url(landing-page-purple-background-template-design-modern-shape-simple-technology-concept-vector-illustration-banner-231883974.jpg)
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Formulário{
+    background-color: white;
+    width: 330px;
+    height: 330px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 30px;
+    font-family: monospace;
+}
+
+.Form1{
+    align-items: center;
+    text-align: center;
+    bottom: 30%;
+    border-radius: 15px;
+    padding-top: 30px;
+    font-family: monospace;
+}
+
+input{
+    background-color: transparent;
+    border-radius: 15px;
+    border-bottom: 2px solid rgb(200,200,200);
+    padding-bottom: 15px;
+    font-size: 15px;
+    width: 75%;
+    border-top-color: darkgrey;
+    border-right-color: darkgrey;
+    outline: 0;
+    padding: 8px 12px
+}
+
+::placeholder{
+    bottom: 8px;
+    position: absolute;
+    font-family: monospace;
+    
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+    width: 60%;
+    background-image: linear-gradient(#7B68EE,#8A2BE2 );
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;  
+}
